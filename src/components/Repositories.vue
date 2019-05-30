@@ -7,7 +7,7 @@
           <h4 class="card-name">User: {{item.name}}</h4>
           <h4 class="card-nick">Nick: {{item.nickName}}</h4>
           <h6 class="card-url">Url: {{item.github_url}}</h6>
-          <a :href="item.github_url" class="btn btn-primary">See Repository</a>
+          <a :href="item.github_url" class="btn btn-primary" target="_blank">See Repository</a>
         </div>
       </div>
     </div>
