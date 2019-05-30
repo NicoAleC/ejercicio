@@ -15,24 +15,24 @@
 </template>
 
 <script>
-import Data from "@/assets/daja.json";
+import Data from '@/assets/daja.json';
 
 export default {
   data() {
     return {
-      data: Data.users
+      data: Data.users,
     };
   },
   methods: {
     getData() {
-      for (var i = 0; i < this.data.length; i++) {
+      for (let i = 0; i < this.data.length; i++) {
         if (this.data[i].avatar_url === undefined) {
-          this.data[i].avatar_url = "https://help.github.com/assets/images/help/profile/identicon.png";
+          this.data[i].avatar_url = 'https://help.github.com/assets/images/help/profile/identicon.png';
         }
       }
       return this.data;
-    }
+    },
   },
-  name: "repositories"
+  name: 'repositories',
 };
 </script>
