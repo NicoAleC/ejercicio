@@ -1,6 +1,5 @@
 <template>
   <div class="Repo">
-    <h1>This is an Repo page</h1>
     <Repositories/>
   </div>
 </template>

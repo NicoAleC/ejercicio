@@ -1,17 +1,17 @@
 <template>
-  <div class="home">
+  <div class="INDEX">
     <img alt="Vue logo" src="../assets/logo.png">
-    <Home msg="Welcome to a Vue.js App"/>
+    <INDEX msg="Welcome to a Vue.js App"/>
   </div>
 </template>
 
 <script>
-import Home from '@/components/Home.vue';
+import INDEX from '@/components/INDEX.vue';
 
 export default {
-  name: 'home',
+  name: 'index',
   components: {
-    Home,
+    INDEX,
   },
 };
 </script>
